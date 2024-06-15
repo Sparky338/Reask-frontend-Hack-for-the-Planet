@@ -1,7 +1,12 @@
+.main-location-div {
+    width: 25%;
+}
+
 .location-search-bar {
     border-radius: 20px;
-    width: 25%;
     height: 20px;
+    width: 90%;
+    padding-left: 10px;
 }
 
 .location-search-button {

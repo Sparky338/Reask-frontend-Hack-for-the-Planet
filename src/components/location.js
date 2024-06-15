@@ -24,7 +24,7 @@ const LocationSearch = () => {
             type="text"
             value={location}
             onChange={(e) => setLocation(e.target.value)}
-            placeholder="  Search for Location"
+            placeholder="Search for Location"
           />
         </label>
         <button className="button location-search-button" onClick={handleSubmit}>
