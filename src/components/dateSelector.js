@@ -1,9 +1,10 @@
 import { useState } from "react";
+import "../css/dateSelector.css"
 
 const DateSelector = () => {
   return (
     <div className="main-date-selector-div">
-        <select name="dates">
+        <select className="date-selector" name="dates">
           <option value="">YEAR</option>
           <option value="1985">1985</option>
           <option value="1995">1995</option>

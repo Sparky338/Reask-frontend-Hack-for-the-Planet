@@ -1,6 +1,8 @@
 import DateSelector from "./dateSelector";
 import LocationSearch from "./location";
 
+import "../css/homepage.css"
+
 const Homepage = () => {
   return (
     <div className="main-div">
