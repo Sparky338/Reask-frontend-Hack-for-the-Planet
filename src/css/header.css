@@ -1,5 +1,5 @@
 .main-nav-bar {
-    background-color: blue;
+    background-image: linear-gradient(to right, #0E116F, #010129);
     height: 60px;
 }
 
@@ -10,7 +10,7 @@
     align-items: center;
     position: relative;
     top: 10px;
-    left:20px;
+    left: 60px;
 }
 
 .reask-logo {
