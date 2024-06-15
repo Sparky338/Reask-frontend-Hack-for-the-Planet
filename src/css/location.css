@@ -1,0 +1,13 @@
+.location-search-bar {
+    border-radius: 20px;
+    width: 25%;
+    height: 20px;
+}
+
+.location-search-button {
+    position: relative;
+    right: 38px;
+    border: 0px;
+    background-color: transparent;
+    cursor: pointer;
+}

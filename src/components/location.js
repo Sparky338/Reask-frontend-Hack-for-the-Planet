@@ -1,11 +1,11 @@
 import { useState } from "react";
+import "../css/location.css"
 
 const LocationSearch = () => {
   const [location, setLocation] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
     // await => backend call passing in location to update graphs
   };
 
@@ -24,10 +24,10 @@ const LocationSearch = () => {
             type="text"
             value={location}
             onChange={(e) => setLocation(e.target.value)}
-            placeholder="Location"
+            placeholder="  Search for Location"
           />
         </label>
-        <button className="button location-search" onClick={handleSubmit}>
+        <button className="button location-search-button" onClick={handleSubmit}>
           {magnifyingGlass}
         </button>
       </form>
