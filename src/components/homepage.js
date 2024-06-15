@@ -2,6 +2,7 @@ import DateSelector from "./dateSelector";
 import LocationSearch from "./location";
 
 import "../css/homepage.css"
+import UploadCSV from "./uploadCSV";
 
 const Homepage = () => {
   return (
@@ -9,6 +10,7 @@ const Homepage = () => {
       <div className="top-options">
         <LocationSearch />
         <DateSelector />
+        <UploadCSV />
       </div>
       {/* insert components here */}
     </div>
