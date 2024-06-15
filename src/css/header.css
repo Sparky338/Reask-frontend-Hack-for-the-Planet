@@ -1,0 +1,18 @@
+.main-nav-bar {
+    background-color: blue;
+    height: 60px;
+}
+
+.link-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    left:20px;
+}
+
+.reask-logo {
+    max-height: 40px;
+}
