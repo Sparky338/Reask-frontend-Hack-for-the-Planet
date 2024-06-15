@@ -1,7 +1,9 @@
+import LocationSearch from "./location";
+
 const Homepage = () => {
     return (
         <div className="main-div">
-            <h3>test</h3>
+            <LocationSearch />
             {/* insert components here */}
         </div>
     );
