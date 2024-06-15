@@ -9,6 +9,8 @@ const LocationSearch = () => {
     // await => backend call passing in location to update graphs
   };
 
+  const magnifyingGlass = <i class="fa-solid fa-magnifying-glass"></i>;
+
   return (
     <div className="main-location-div">
       {/* search bar */}
@@ -26,7 +28,7 @@ const LocationSearch = () => {
           />
         </label>
         <button className="button location-search" onClick={handleSubmit}>
-          MAGNIFYING GLASS
+          {magnifyingGlass}
         </button>
       </form>
     </div>

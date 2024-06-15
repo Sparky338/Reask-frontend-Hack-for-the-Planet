@@ -9,3 +9,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main-div {
+  position: relative;
+  left: 5%;
+  right: 5%;
+  top: 20px;
+  bottom: 20px;
+}
