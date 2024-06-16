@@ -1,6 +1,6 @@
 .probability-events-main-div {
     width: 88.5%;
-    height: 400px;
+    height: 600px;
     border: 1px solid white;
     background-color: white;
     margin-top: 20px;
@@ -9,4 +9,16 @@
     padding-right: 15px;
     box-shadow: rgb(137, 137, 137) 5px 5px 5px;
     position: relative;
+}
+
+.excedence-and-summary-graph {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.EP-Graph,
+.summary-Graph {
+    margin-top: 20px;
+    box-shadow: rgb(137, 137, 137) 1px 1px 5px;
 }
