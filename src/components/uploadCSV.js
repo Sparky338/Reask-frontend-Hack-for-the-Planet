@@ -3,7 +3,7 @@ import "../css/uploadCSV.css";
 const UploadCSV = () => {
   const uploadIcon = <i class="fa-solid fa-upload"></i>;
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     // await => backend call passing in CSV to update data
   };
