@@ -3,6 +3,7 @@ import LocationSearch from "./location";
 
 import "../css/homepage.css";
 import UploadCSV from "./uploadCSV";
+import Variables from "./variables";
 
 const Homepage = () => {
   return (
@@ -14,7 +15,9 @@ const Homepage = () => {
           <UploadCSV />
         </div>
       </div>
-      {/* insert components here */}
+      <div className="variables-chart-div">
+        <Variables />
+      </div>
     </div>
   );
 };
