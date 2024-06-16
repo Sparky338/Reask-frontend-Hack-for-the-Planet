@@ -9,7 +9,7 @@ const Graph = () => {
         <div className="graph-main-div">
             {/* display graph when there is one available */}
             {/* {graph ? displayGraph : genericResponse} */}
-            <h2>Upload a CSV to get started</h2>
+            <h2>Future updates: Comparison of Projected Yearly Loss graph</h2>
         </div>
     )
 }

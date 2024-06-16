@@ -3,7 +3,7 @@ import "../css/variables.css"
 const Variables = () => {
   return (
     <div className="variables-main-div">
-      <h2 className="title-variables">Variables</h2>
+      <h2 className="title-variables">Variables (would adjust graphs in real time/ after a delay)</h2>
       <form
         className="variables-form"
         // onSubmit={handleSubmit /*finalize this, backend call */}
