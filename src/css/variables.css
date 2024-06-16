@@ -1,0 +1,24 @@
+.variables-main-div {
+    width: 24%;
+    border: 1px solid white;
+    background-color: white;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    box-shadow: rgb(137, 137, 137) 5px 5px 5px;
+}
+
+.variables-main-div,
+.variables-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.variables-label {
+    border-bottom: 2px solid rgb(197, 197, 197);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}

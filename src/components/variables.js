@@ -1,3 +1,5 @@
+import "../css/variables.css"
+
 const Variables = () => {
   return (
     <div className="variables-main-div">
@@ -6,7 +8,7 @@ const Variables = () => {
         className="variables-form"
         // onSubmit={handleSubmit /*finalize this, backend call */}
       >
-        <label>
+        <label className="variables-label">
           Warming Scenarios
           <select
             className="variables-selectors"
@@ -19,7 +21,7 @@ const Variables = () => {
             <option value="3">3</option>
           </select>
         </label>
-        <label>
+        <label className="variables-label">
           Risk Exposure
           <select
             className="variables-selectors"
@@ -31,7 +33,7 @@ const Variables = () => {
             <option value="fire">Fire</option>
           </select>
         </label>
-        <label>
+        <label className="variables-label">
           Mitigation
           <select
             className="variables-selectors"

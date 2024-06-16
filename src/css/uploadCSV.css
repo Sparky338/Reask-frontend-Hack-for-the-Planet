@@ -3,6 +3,7 @@
     height: 25px;
     background-color: white;
     cursor: pointer;
+    box-shadow: rgb(137, 137, 137) 5px 5px 5px;
 }
 
 .dialog {
