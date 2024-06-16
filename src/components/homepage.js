@@ -4,6 +4,7 @@ import LocationSearch from "./location";
 import "../css/homepage.css";
 import UploadCSV from "./uploadCSV";
 import Variables from "./variables";
+import Graph from "./graph";
 
 const Homepage = () => {
   return (
@@ -17,6 +18,7 @@ const Homepage = () => {
       </div>
       <div className="variables-chart-div">
         <Variables />
+        <Graph />
       </div>
     </div>
   );

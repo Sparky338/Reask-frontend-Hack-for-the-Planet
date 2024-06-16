@@ -7,3 +7,8 @@
 .right-buttons {
     padding-left: 50%;
 }
+
+.variables-chart-div {
+    display: flex;
+    justify-content: space-between;
+}

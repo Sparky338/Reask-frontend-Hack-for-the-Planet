@@ -1,0 +1,13 @@
+.graph-main-div {
+    width: 60%;
+    height: 300px;
+    border: 1px solid white;
+    background-color: white;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    box-shadow: rgb(137, 137, 137) 5px 5px 5px;
+    position: relative;
+    right: 10%;
+}
