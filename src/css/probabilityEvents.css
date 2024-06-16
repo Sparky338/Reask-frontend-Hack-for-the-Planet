@@ -1,0 +1,12 @@
+.probability-events-main-div {
+    width: 88.5%;
+    height: 400px;
+    border: 1px solid white;
+    background-color: white;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    box-shadow: rgb(137, 137, 137) 5px 5px 5px;
+    position: relative;
+}

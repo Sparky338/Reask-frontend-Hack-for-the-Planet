@@ -5,6 +5,7 @@ import "../css/homepage.css";
 import UploadCSV from "./uploadCSV";
 import Variables from "./variables";
 import Graph from "./graph";
+import ProbabilityEvents from "./probabilityEvents";
 
 const Homepage = () => {
   return (
@@ -19,6 +20,9 @@ const Homepage = () => {
       <div className="variables-chart-div">
         <Variables />
         <Graph />
+      </div>
+      <div className="probability-events">
+        <ProbabilityEvents />
       </div>
     </div>
   );
