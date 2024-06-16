@@ -4,3 +4,29 @@
     background-color: white;
     cursor: pointer;
 }
+
+.dialog {
+    width: 500px;
+    height: 250px;
+}
+
+.dialog-close-btn {
+    font-size: 1em;
+    position: absolute;
+    top: .25em;
+    right: .25em;
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+
+.upload-csv {
+    width: 95%;
+    border-radius: 20px;
+    height: 30px;
+    position: relative;
+    top: 110px;
+    left: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
