@@ -1,24 +1,26 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import "../css/probabilityEvents.css";
 
 const ProbabilityEvents = () => {
-  const [currentTab, setCurrentTab] = useState("");
+  const [data, setData] = useState("");
   const [display, setDisplay] = useState("");
 
-//   if (currentTab === "") {
-//     setDisplay(
-//       <h2 className="upload-CSV-placeholder">Upload a CSV to get started</h2>
-//     );
-//   } else {
-//     currentTab === "probability"
-//       ? setDisplay(/* display probability graph component*/ "prob")
-//       : setDisplay(/* display events graph component*/ "events");
-//   }
+useEffect(() => {
+    data === ""
+      ? setDisplay(
+          <h2 className="no-probability-events"> Upload a CSV to get started </h2>
+        )
+      : setDisplay(/* display probability & events graph component*/ );
+
+}, [data])
+
 
   return (
     <div className="probability-events-main-div">
-      <div className="probability-or-events">{display}</div>
+      <div className="probability-and-events">
+        {display}
+      </div>
     </div>
   );
 };
