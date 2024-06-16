@@ -15,7 +15,7 @@ const Variables = () => {
             name="variables"
             id="variables-selectors"
           >
-            <option value="">Degrees C</option>
+            <option value="0">None</option>
             <option value="1.5">1.5</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -28,7 +28,7 @@ const Variables = () => {
             name="variables"
             id="variables-selectors"
           >
-            <option value="">All</option>
+            <option value="all">All</option>
             <option value="hurricane">Hurricane</option>
             <option value="fire">Fire</option>
           </select>

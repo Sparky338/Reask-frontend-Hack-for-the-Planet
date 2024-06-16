@@ -9,6 +9,12 @@
     box-shadow: rgb(137, 137, 137) 5px 5px 5px;
 }
 
+.title-variables{
+    padding-bottom: 20px;
+    margin-bottom: 5px;
+    border-bottom: 2px solid rgb(197, 197, 197);
+}
+
 .variables-main-div,
 .variables-form {
     display: flex;
@@ -21,4 +27,9 @@
     padding-top: 10px;
     display: flex;
     justify-content: space-between;
+}
+
+.variables-selectors {
+    border-radius: 20px;
+    width: 120px;
 }
