@@ -3,7 +3,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(193, 193, 193);
+  background-color: rgb(211, 211, 211);
 }
 
 code {
@@ -14,7 +14,6 @@ code {
 .main-div {
   position: relative;
   left: 5%;
-  right: 5%;
   top: 20px;
   bottom: 20px;
 }

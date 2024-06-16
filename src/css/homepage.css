@@ -1,4 +1,9 @@
-.top-options {
+.top-options,
+.right-buttons {
     display: flex;
     flex-direction: row;
+}
+
+.right-buttons {
+    padding-left: 50%;
 }

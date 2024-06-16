@@ -1,7 +1,7 @@
 import DateSelector from "./dateSelector";
 import LocationSearch from "./location";
 
-import "../css/homepage.css"
+import "../css/homepage.css";
 import UploadCSV from "./uploadCSV";
 
 const Homepage = () => {
@@ -9,8 +9,10 @@ const Homepage = () => {
     <div className="main-div">
       <div className="top-options">
         <LocationSearch />
-        <DateSelector />
-        <UploadCSV />
+        <div className="right-buttons">
+          <DateSelector />
+          <UploadCSV />
+        </div>
       </div>
       {/* insert components here */}
     </div>
