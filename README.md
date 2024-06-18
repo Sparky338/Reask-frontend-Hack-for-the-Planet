@@ -1,3 +1,14 @@
+# Hack for the Planet Submission
+
+Hack for the Planet was based around climate tech and making strides towards 
+building a better knowledge base and software about climate change. My team placed
+second in our category creating a climate resilient property insurance dashboard.
+The team consisted of Richard Cole (backend software engineer), Jean Saung (product
+designer), Stanley Lee (product manager), and myself (frontend software engineer). 
+Only the frontend code can be shared due to proprietary backend code.
+
+Recording of our presentation can be found [here](https://www.loom.com/share/ca1ba8912ecd4cfc90f8724891cb947e?sid=a7be1030-2e02-4373-b6e4-7fc1350e389b).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
